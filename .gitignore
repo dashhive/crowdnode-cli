@@ -1,0 +1,6 @@
+*.wif
+/cookie.txt
+/rawtx.hex
+
+.env.*
+node_modules/
