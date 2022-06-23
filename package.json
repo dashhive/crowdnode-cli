@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashhive/crowdnode.js.git"
+    "url": "git+https://github.com/dashhive/crowdnode-cli.git"
   },
   "dependencies": {
     "crowdnode": "^1.0.1"
@@ -27,7 +27,7 @@
   "author": "AJ ONeal <aj@therootcompany.com> (https://therootcompany.com)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/dashhive/crowdnode.js/issues"
+    "url": "https://github.com/dashhive/crowdnode-cli/issues"
   },
-  "homepage": "https://github.com/dashhive/crowdnode.js#readme"
+  "homepage": "https://github.com/dashhive/crowdnode-cli#readme"
 }
