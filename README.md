@@ -1,4 +1,4 @@
-# CrowdNode CLI
+# [CrowdNode CLI](https://github.com/dashhive/crowdnode-cli)
 
 CrowdNode allows you to become a partial MNO - staking Dash to earn interest,
 participate in voting, etc.
