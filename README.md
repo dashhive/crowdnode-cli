@@ -48,13 +48,34 @@ The Dash you stake **can NOT be retrieved** without this key!
 
 ## QuickStart
 
+If you want to do everything, all at once:
+
+```bash
+crowdnode stake 10.0
+```
+
+Or, if you already have a key with a balance to deposit:
+
+```bash
+# Save a key from dash-cli or Dash Core's Debug Console to a file for import:
+#    walletpassphrase "YOUR PASSHRASE" 300
+#    dumprivkey XxYOURxADDRESSx
+#
+# Use as your CrowdNode CLI wallet:
+
+crowdnode stake ./your-staking-key.wif
+```
+
+This will:
+
 - Generate a new staking key, or Import from an existing wallet
 - Load the key with Dash
 - Sign up & Accept the CrowdNode's Terms
 - Deposit
-- Withdrawal and Transfer at any time
 
 Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
+
+## Step-by-Step
 
 0. Generate or Import a **permanent** staking key:
    ```bash
@@ -75,7 +96,9 @@ Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
    crowdnode load 0.503
    ```
    (you can load a balance via **QR Code**, Dash URL, and Payment Address)
-2. Send the Sign Up request and the [CrowdNode Terms of Service](https://crowdnode.io/terms/):
+2. Send the Sign Up request and the
+   [CrowdNode Terms of Service](https://crowdnode.io/terms/):
+
    ```bash
    # Sign Up sends Đ0.00151072 to create your account
    crowdnode signup
@@ -83,7 +106,9 @@ Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
    # Accept sends Đ0.00085536 to accept terms and enable deposits
    crowdnode accept
    ```
+
 3. Deposit a test stake (in DASH)
+
    ```bash
    # Create a test deposit:
    crowdnode deposit 0.01
@@ -94,9 +119,11 @@ Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
    # Load and stake another Đ10:
    crowdnode deposit 10.0
    ```
+
    Note: CrowdNode requires a minimum stake of Đ0.5 to earn interest.
 
-You can withdrawal from 1.0% to 100.0% of your stake at any time, and transfer to an address in another wallet:
+You can withdrawal from 1.0% to 100.0% of your stake at any time, and transfer
+to an address in another wallet:
 
 ```bash
 # Withdrawal 5.0%
@@ -109,6 +136,9 @@ crowdnode transfer XxYOURxOTHERxADDRESSx 5.0
 ## All Commmands
 
 ```bash
+Quick Start:
+    crowdnode stake [addr-or-import-key | --create-new]
+
 Usage:
     crowdnode help
     crowdnode status [keyfile-or-addr]
@@ -123,7 +153,8 @@ Helpful Extras:
     crowdnode transfer <from-keyfile-or-addr> <to-keyfile-or-addr> [dash-amount]
 
 Key Management & Encryption:
-    crowdnode generate [./privkey.wif] [--plain-text]
+    crowdnode init
+    crowdnode generate [--plain-text] [./privkey.wif]
     crowdnode list
     crowdnode use <addr>            # set as default key
     crowdnode passphrase            # set or rotate passphrase
