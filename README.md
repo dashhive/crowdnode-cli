@@ -15,14 +15,14 @@ You must have [node.js](https://webinstall.dev/node) installed:
 ### Mac & Linux
 
 ```bash
-curl https://webinstall.dev/node | bash
+curl https://webinstall.dev/node@lts | bash
 export PATH="${HOME}/.local/opt/node:$PATH"
 ```
 
 ### Windows
 
 ```pwsh
-curl.exe -A MS https://webinstall.dev/node | powershell
+curl.exe -A MS https://webinstall.dev/node@lts | powershell
 PATH %USERPROFILE%\.local\opt\node;%PATH%
 ```
 
