@@ -6,6 +6,10 @@ Dash to earn interest, participate in voting, etc.
 This cross-platform CrowdNode CLI enables you to privately manage your stake via
 their KYC-free Blockchain API.
 
+# Summary Video
+
+[![crowdnode summary thumbnail](https://user-images.githubusercontent.com/122831/177194944-9445302b-7a2d-4243-a5bd-ac2bda50c45d.jpeg)](https://youtu.be/PbOdgZsJP-c)
+
 # Install
 
 ## Node.js
