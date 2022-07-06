@@ -41,12 +41,7 @@ You may need to close and re-open your terminal.
 npm install --location=global crowdnode-cli@v1
 ```
 
-Or
-
-```bash
-# Run without installing
-npx crowdnode-cli@v1
-```
+Note (`npx` users): feel free to `npx -p crowdnode-cli@v1 crowdnode` without installing.
 
 # CLI Usage
 
