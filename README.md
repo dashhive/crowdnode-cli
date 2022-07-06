@@ -19,16 +19,21 @@ You must have [node.js](https://webinstall.dev/node) installed:
 ### Mac & Linux
 
 ```bash
-curl https://webinstall.dev/node@lts | bash
-export PATH="${HOME}/.local/opt/node:$PATH"
+curl https://webinstall.dev/node@lts | bash; \
+export PATH="${HOME}/.local/opt/node/bin:$PATH"
 ```
+
+Follow the on-screen instructions.
+You may need to close and re-open your terminal.
 
 ### Windows
 
 ```pwsh
 curl.exe -A MS https://webinstall.dev/node@lts | powershell
-PATH %USERPROFILE%\.local\opt\node;%PATH%
 ```
+
+Follow the on-screen instructions.
+You may need to close and re-open your terminal.
 
 ## CrowdNode CLI
 
