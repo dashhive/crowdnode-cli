@@ -14,12 +14,12 @@ their KYC-free Blockchain API.
 
 ## Node.js
 
-You must have [node.js](https://webinstall.dev/node) installed:
+You must have [node.js](https://webinstall.dev/node) v16 installed:
 
 ### Mac & Linux
 
 ```bash
-curl https://webinstall.dev/node@lts | bash
+curl https://webinstall.dev/node@16 | bash
 ```
 
 Follow the on-screen instructions. \
