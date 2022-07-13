@@ -125,12 +125,12 @@ Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
 
    Note: CrowdNode requires a minimum stake of Đ0.5 to earn interest.
 
-You can withdrawal from 1.0% to 100.0% of your stake at any time, and transfer
+You can withdraw from 1.0% to 100.0% of your stake at any time, and transfer
 to an address in another wallet:
 
 ```bash
-# Withdrawal 5.0%
-crowdnode withdrawal 5.0
+# Withdraw 5.0%
+crowdnode withdraw 5.0
 
 # Transfer your balance
 crowdnode transfer XxYOURxOTHERxADDRESSx 5.0
@@ -148,7 +148,7 @@ Usage:
     crowdnode signup [keyfile-or-addr]
     crowdnode accept [keyfile-or-addr]
     crowdnode deposit [keyfile-or-addr] [dash-amount] [--no-reserve]
-    crowdnode withdrawal [keyfile-or-addr] <percent> # 1.0-100.0 (steps by 0.1)
+    crowdnode withdraw [keyfile-or-addr] <percent> # 1.0-100.0 (steps by 0.1)
 
 Helpful Extras:
     crowdnode balance [keyfile-or-addr]
