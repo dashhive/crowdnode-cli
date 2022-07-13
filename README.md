@@ -41,7 +41,8 @@ You may need to close and re-open your terminal.
 npm install --location=global crowdnode-cli@v1
 ```
 
-Note (`npx` users): feel free to `npx -p crowdnode-cli@v1 crowdnode` without installing.
+Note (`npx` users): feel free to `npx -p crowdnode-cli@v1 crowdnode` without
+installing.
 
 # CLI Usage
 
@@ -125,15 +126,15 @@ Note: I recommend printing a Paper Wallet (WIF QR) and putting it your safe.
 
    Note: CrowdNode requires a minimum stake of Đ0.5 to earn interest.
 
-You can withdraw from 1.0% to 100.0% of your stake at any time, and transfer
-to an address in another wallet:
+You can withdraw from 1.0% to 100.0% of your stake at any time, and transfer to
+an address in another wallet:
 
 ```bash
 # Withdraw 5.0%
 crowdnode withdraw 5.0
 
 # Transfer your balance
-crowdnode transfer XxYOURxOTHERxADDRESSx 5.0
+crowdnode transfer XxYOURxOTHERxADDRESSx
 ```
 
 ## All Commmands
