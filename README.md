@@ -144,6 +144,8 @@ Quick Start:
 
 Usage:
     crowdnode help
+    crowdnode version
+
     crowdnode status [keyfile-or-addr]
     crowdnode signup [keyfile-or-addr]
     crowdnode accept [keyfile-or-addr]
