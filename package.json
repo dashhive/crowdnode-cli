@@ -1,6 +1,6 @@
 {
   "name": "crowdnode-cli",
-  "version": "1.0.7",
+  "version": "1.8.0-0",
   "description": "Manage your stake in Đash with the CrowdNode Blockchain API",
   "main": "./bin/crowdnode.js",
   "bin": {
@@ -8,14 +8,15 @@
   },
   "files": [],
   "scripts": {
-    "test": "node bin/crowdnode.js help"
+    "test": "node bin/crowdnode.js help",
+    "version": "npm version -m \"chore(release): bump to v%s\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dashhive/crowdnode-cli.git"
   },
   "dependencies": {
-    "crowdnode": "^1.6.2"
+    "crowdnode": "^1.8.0"
   },
   "keywords": [
     "Dash",
